@@ -33,4 +33,11 @@ echo "<br> count " . gettype($count);
 $count2 = (string) $count;
 echo "<br> count " . gettype($count);
 echo "<br> count2 " . gettype($count2);
+
+$test1 = 3;
+$test2 = 3;
+settype($test1, "string");
+(string) $test2;
+echo "<br><br>test1: " . gettype($test1);
+echo "<br>test2: " . gettype($test2);
 ?>
