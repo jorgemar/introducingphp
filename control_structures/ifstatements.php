@@ -4,8 +4,10 @@ $b = 4;
 
 if (a > b){
     echo "a is larger than b";
-} else {
+} elseif(b > a) {
     echo "b is larger than a";
+}else{
+    echo "a is equal to b";
 }
 
 $new_user = true;
@@ -19,6 +21,7 @@ $numerator = 20;
 $denominator = 4;
 if ($denominator >0){
     $result = $numerator / $denominator;
-    echo "Result: {$result}";
+    
 }
+echo "Result: {$result}";
 ?>
